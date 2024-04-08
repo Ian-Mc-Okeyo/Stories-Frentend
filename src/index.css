@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.templatemo-home {
+  background: #ffb001;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #5f5f5f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;  
+  height: 100vh;
+}
+
+.header-box{
+  border: solid 2px #012559;
+  padding: 80px 20px;
+  color: white;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+.displayImg{
+  width: 100%;
+  border-radius: 25%;
+}
+
+.postDisplay{
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 7px;
+}
+.blogPart{
+  border: solid 0.5px #01265916;
+  border-radius: 5px;
+  min-height: 175px;
+}
+.imageContainer{
+  border: none;
+  min-height: 170px;
+}
+.postDisplay:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.categoryNav{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+  margin-top: -2px;
+}
+
+.article-img {
+  height: 55px;
+  width: 55px;
+  margin-right: 20px;
+}
+.account-img {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.rounded-circle{
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+}
+.customContainer{
+  margin: 50px;
+}
+
+@media screen and (max-width: 601px) {
+  .customContainer{
+    margin: 0px;
+  }
+}
